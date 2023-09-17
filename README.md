@@ -20,7 +20,7 @@ Reducing the initial exploration probability (epsilon) to 0.5 encourages the age
 
 ### Solution 3: Decrease Epsilon Decay
 
-The epsilon decay rate influences how quickly the agent shifts from exploration to exploitation. To make the transition more gradual and allow the agent to explore more extensively, I decreased the epsilon decay rate to 0.8. This means that epsilon will decrease more quickly over time, giving the agent more opportunities for exploitation.
+The epsilon decay rate influences how quickly the agent shifts from exploration to exploitation. To make the transition more gradual and allow the agent to exploit more extensively, I decreased the epsilon decay rate to 0.8. This means that epsilon will decrease more quickly over time, giving the agent more opportunities for exploitation.
 
 
 ## Conclusion
